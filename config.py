@@ -10,7 +10,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "7ea2149629e445936619f06a3c0dc716")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "Akforwardbot") 
-    DATABASE_URI = environ.get("DATABASE", "")
+    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://for:for@cluster0.fgu4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '7251898668').split()]
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
