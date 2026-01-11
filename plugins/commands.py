@@ -18,8 +18,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 main_buttons = [[
         InlineKeyboardButton('❗️ʜᴇʟᴘ', callback_data='help')
         ],[
-        InlineKeyboardButton('📜 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/AKMovieBotz'),
-        InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/AkMoviesHubBackup')
+        InlineKeyboardButton('📜 Adult ᴄʜᴀɴɴᴇʟ', url='https://t.me/PurelySin'),
+        InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/AkMovieVerse')
         ],[
         InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ', callback_data='donate')
         ]]
